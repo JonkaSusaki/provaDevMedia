@@ -1,0 +1,36 @@
+@media(max-width: 965px) {
+    .header .menu {
+        display: none;
+    }
+
+    .header .toggle-menu {
+        display: block;
+    }
+}
+
+@media (max-width: 850px) {
+    .home-page .home-page-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 650px) {
+    html, body, .App {
+        height: 100%;
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 370px) {
+    .toggle-menu {
+        position: absolute;
+        transform: translateY(7px);
+    }
+
+    .home-page .card {
+        width: 200px;
+    }
+}

@@ -1,0 +1,67 @@
+.form-page {
+    margin: 10px;
+    padding: 20px;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin: 10px 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input {
+    width: 300px;
+    padding: 10px;
+
+    margin-top: 5px;
+
+    border-radius: 10px;
+}
+
+.form-group textarea {
+    font-size: 20px;
+    height: 100px;
+    width: 600px;
+    padding: 5px;
+
+    outline: none;
+    border-radius: 10px;
+
+}
+
+.form-buttons {
+    display: flex;
+}
+
+.save-button {
+    margin-right: 20px;
+    padding: 10px 20px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    background-color: #2980b9;
+    color: #fff;
+}
+
+.clear-button {
+    padding: 10px 20px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    background-color: #bdc3c7;
+    color: #000;
+}

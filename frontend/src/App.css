@@ -1,0 +1,16 @@
+html, body, #root, .App {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #dfe4ea;
+}
+
+.App {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 70px 1fr 40px;
+    grid-template-areas: "header" "content" "footer";
+}
